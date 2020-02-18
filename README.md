@@ -14,6 +14,12 @@ List of molecules: CHEMBL98, CHEMBL99, CHEMBL27759, CHEMBL2018302, CHEMBL483254,
 Installation
 ------------
 
+**Method 1: Docker image**
+
+You can use the Dockerfile file provided to build and run your Docker image. 
+
+**Method 2: Manual installation**
+
 Install Flask and ChEMBL web service client:
 
 	pip3 install Flask
@@ -27,6 +33,3 @@ Then from a command line or terminal do the following:
 it will start the Flask server and the web page will be available on 
 
 	http://localhost:3000
-
-
-
